@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.5vw;
+    font-family: sans-serif;
+}
+body{
+    margin-top: 1%;
+}
+#left_panel{
+    text-align: left;
+    margin-left: 2%;
+    width: 50%;
+    display: inline-block;
+}
+#right_panel{
+    text-align: center;
+    width: 40%;
+    float: right;
+    display: inline-block;
+}
+button{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 1px black;
+    margin-top: 5%;
+    margin-left: 1.5%;
+    width: 40%;
+    height: 7vh;
+}
+th{
+    padding-bottom: 5%;
+}
+.name{
+    padding-left: 1%;
+    border: 2px solid black;
+    display: inline-block;
+    width: 80%;
+    height: 4vw;
+}
+#description{
+    padding: 1%;
+    border: 2px solid black;
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+    margin-left: 1.5%;
+    height: 30vh;
+}
+
+/*For the right side*/
+.card{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+    display: inline-block;
+}
+.card_name{
+    display: inline-block;
+    width: 85%;
+    font-size: 5.2vw;
+    margin-top: 15%;
+    vertical-align: middle;
+}
+.card_description{
+    display: inline-block;
+    width: 85%;
+    margin-bottom: 5%;
+}
+.card_description_hidden{
+    visibility: hidden; 
+}
